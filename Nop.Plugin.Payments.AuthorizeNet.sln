@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Payments.AuthorizeNet", "Nop.Plugin.Payments.AuthorizeNet.csproj", "{9DEA9410-1378-4DD9-ACB5-0219E230ADC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{02CDBA54-4BE9-42B5-9B2C-99D6E47C83DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Data", "..\Framework\Libraries\Nop.Data\Nop.Data.csproj", "{CCD7F2C9-6A2C-4CF0-8E89-076B8FC0F144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Services", "..\Framework\Libraries\Nop.Services\Nop.Services.csproj", "{210541AD-F659-47DA-8763-16F36C5CD2F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Core", "..\Framework\Libraries\Nop.Core\Nop.Core.csproj", "{6BDA8332-939F-45B7-A25E-7A797260AE59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A7F27DE6-9E21-46E9-AFA2-1269057162CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Web.Framework", "..\Framework\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj", "{75FD4163-333C-4DD5-854D-2EF294E45D94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DEA9410-1378-4DD9-ACB5-0219E230ADC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEA9410-1378-4DD9-ACB5-0219E230ADC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEA9410-1378-4DD9-ACB5-0219E230ADC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEA9410-1378-4DD9-ACB5-0219E230ADC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD7F2C9-6A2C-4CF0-8E89-076B8FC0F144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD7F2C9-6A2C-4CF0-8E89-076B8FC0F144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD7F2C9-6A2C-4CF0-8E89-076B8FC0F144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD7F2C9-6A2C-4CF0-8E89-076B8FC0F144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210541AD-F659-47DA-8763-16F36C5CD2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210541AD-F659-47DA-8763-16F36C5CD2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210541AD-F659-47DA-8763-16F36C5CD2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210541AD-F659-47DA-8763-16F36C5CD2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDA8332-939F-45B7-A25E-7A797260AE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDA8332-939F-45B7-A25E-7A797260AE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDA8332-939F-45B7-A25E-7A797260AE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDA8332-939F-45B7-A25E-7A797260AE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FD4163-333C-4DD5-854D-2EF294E45D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FD4163-333C-4DD5-854D-2EF294E45D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FD4163-333C-4DD5-854D-2EF294E45D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FD4163-333C-4DD5-854D-2EF294E45D94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCD7F2C9-6A2C-4CF0-8E89-076B8FC0F144} = {02CDBA54-4BE9-42B5-9B2C-99D6E47C83DB}
+		{210541AD-F659-47DA-8763-16F36C5CD2F4} = {02CDBA54-4BE9-42B5-9B2C-99D6E47C83DB}
+		{6BDA8332-939F-45B7-A25E-7A797260AE59} = {02CDBA54-4BE9-42B5-9B2C-99D6E47C83DB}
+		{75FD4163-333C-4DD5-854D-2EF294E45D94} = {A7F27DE6-9E21-46E9-AFA2-1269057162CC}
+	EndGlobalSection
+EndGlobal
